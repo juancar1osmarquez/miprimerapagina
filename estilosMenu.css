@@ -1,0 +1,82 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #87CEFA;
+    font-family: 'Merriweather', serif;
+    font-family: 'Playpen Sans', cursive;
+    font-size: 2rem;
+}
+
+nav{
+    display: flex;
+    background-color: #20B2AA;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+ul{
+    display: flex;
+    gap: 214px;
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    color: azure;
+}
+
+#menu{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 10px 100px 30px 100px;
+}
+
+#plato{
+    width: 250px;
+    height: 250px;
+}
+
+.icono{
+    position: fixed;
+}
+
+#movible{
+    width: 50px;
+    height: 50px;
+    margin: 10px 0 0 0;
+}
+
+footer{
+    text-align: center;
+    padding-bottom: 10px;
+    color: azure;
+    background-color: #20B2AA;
+}
+
+@media (min-width: 320px) {
+/*celular*/
+    nav{
+        background-color: red;
+        width: 100%;
+    }
+
+}
+/*tablet*/
+@media (min-width: 768px) {
+
+    nav{
+        background-color: yellow;
+        width: 100%;
+    }
+}
+
+/*escritorio*/
+@media (min-width: 1024px) {
+    nav{
+        background-color: blue;
+        width: 100%;
+    }
+}
